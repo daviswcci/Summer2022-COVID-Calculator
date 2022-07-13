@@ -1,0 +1,38 @@
+.grid{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(173, 255, 176);
+    color: rgb(17, 145, 113);
+    font-weight: bold;
+}
+
+button{
+    max-width: 75%;
+    color: rgb(9, 87, 67);
+    font-size: large;
+    background-color: rgb(135, 239, 139);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+#graph{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+
+p {
+    font-weight: normal;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Summer2022 COVID Calculator</h1> 
+        <h3>Welcome! Use this calculator to see how many people would get infected with COVID after 5 weeks. Set a starting infected population, an infection rate from 0% to 100% and an average number of interactions each person has.</h3>
+        <div class="grid">
+            <!-- Give IDs to all HTML elements we want to grab -->
+            <p id="initText">Initial Infected: 0</p>
+            <button id="infectedDe">Decrease</button>
+            <button id="infectedIn">Increase</button>
+            <p id="rateText">Infection Rate: 0%</p>   
+            <button id="rateDe">Decrease</button>
+            <button id="rateIn">Increase</button>
+            <p id="interactionsText">Interactions Per Week: 0</p>
+            <button id="interactionsDe">Decrease</button>
+            <button id="interactionsIn">Increase</button>
+        </div>
+        <button id="graphBtn">Run!</button>
+        <div id="graph">
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
